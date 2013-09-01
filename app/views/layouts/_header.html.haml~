@@ -1,0 +1,20 @@
+%div{:class=>"navbar navbar-fixed-top navbar-inverse"}
+  .header
+    %div.headerrow1
+      %ul
+        = link_to "Sales", sales_path
+        = link_to "Service", service_path
+        = link_to "Equipment Brokerage", equipment_path
+        = link_to "Contact Us", contact_us_path
+    %div.headerrow2
+      = link_to image_tag("logo.gif", :alt=> "Interstate Imaging"), root_path
+      %span
+        Interstate Imaging
+        %br
+        810 N Fares Ave
+        %br
+        Evansville, IN
+        %br
+        Telephone:(812) 428-2612
+    %div.headerrow3
+

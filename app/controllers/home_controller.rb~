@@ -1,0 +1,21 @@
+class HomeController < ApplicationController
+
+  def home
+  end
+
+  def index
+  end
+
+  def service
+  end
+
+  def sales
+  end
+
+  def contact_us
+  end
+
+  def equipment
+  end
+
+end

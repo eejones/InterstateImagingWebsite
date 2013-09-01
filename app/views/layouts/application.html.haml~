@@ -1,0 +1,15 @@
+!!!
+%html
+  %head
+    %title InterstateImaging
+    = stylesheet_link_tag    "bluetemplate", :media => "all"
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+  %body
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+    %div.content
+      = render 'layouts/header'
+      .centralunit
+        = yield
+    = render 'layouts/footer'

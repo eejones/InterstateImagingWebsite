@@ -1,0 +1,7 @@
+%div{:class=>"center hero-unit"}
+  %h1 Interstate Imaging
+  %h2 An Imaging Sales, Service, and Equipment Brokerage Firm
+  %p Interstate Imaging began operations in 1978, as an offshoot of a local hospital in Evansville, IN.  However, we had the same sole owner since 1989.  Our firm is a shareholder of National Health Distributors (NHD); this provides access to all major GPO contracts. Our coverage area encompasses Indiana, Kentucky, Illinois, Missouri, Ohio (Cincinnati area), and Tennessee (Nashville area).
+  %br
+  %p We operate in both the medical and veterinary sectors.
+
