@@ -36,13 +36,16 @@ html body {
   min-height: 100%;
   height:auto;
   padding-top: 0px;
-  background-color: $backgroundblue;
+/*  background-color: $backgroundblue;*/
+  background-image: url("grid-background.gif");
+  background-repeat: repeat;
+  background-position: center top;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
-  /*background-size: cover;*/
-  background-size: contain;
-  background-repeat: no-repeat;
+  /* not here before  background-size: cover;*/
+/*  background-size: contain;*/
+/*  background-repeat: no-repeat;*/
   background-position: right;
 }
 
@@ -231,6 +234,7 @@ header{
 header div .headerrow1{
   background-color: $bluebg;
   height:20px;
+  font-family:verdana,arial,helvetica,sans-serif;
   ul{
     margin-left: auto;
     margin-right:auto;
@@ -238,12 +242,16 @@ header div .headerrow1{
     text-align:center;
   }
   a{
+    font-family:verdana,arial,helvetica,sans-serif;
     text-size:13px;
     align:center;
     color: $offwhite;
     font-weight:bold;
     margin-left: 14px;
     margin-right: 14px;
+    &:hover{
+      color: $dbluetitletxt;
+      }
   }
 }  
 
@@ -303,11 +311,11 @@ headlist ul{
   }
 
 aside{
-  width: 100px;
+  width: 110px;
   padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 10px;
-  padding-left: 5px;
+  padding-bottom: 5px;
+  padding-right: 4px;
+  padding-left: 0px;
   padding-left-ltr-source: physical;
   padding-left-rtl-source: physical;
   padding-right-ltr-source: physical;
@@ -325,17 +333,28 @@ aside{
     margin-bottom:10px;
   }
   img{
-    margin-top:5px;
-    margin-bottom:5px;
-    padding-top:-3px;
-    border: none;
+    align:center;
+    margin:1px;
+    padding-top:2px;
+    padding-bottom:2px; 
+    padding-right:2px;
+    padding-left:2px;
+    max-width: 100%;
+    height: auto;
+  }
+  .fixsize img{
+    height:15px;
+  }
+
+  a{
+    height:0px;
   }
   h4{
     font-weight:bold;
-    text-size:16px;
+    font-size:20px;
     margin-bottom:2px;
     text-align: center;
-    font-color:$dbluetitletxt;
+    color:$dbluetitletxt;
   }
   ul{
     margin: 4px;
@@ -388,8 +407,53 @@ aside{
   }
 }
 
+/* Sales */
+.salesall{
+  margin-left:-50px;
+}
+.sales{
+  ul{
+    max-width:100%;
+    display:inline;
+  }
+  li{
+    margin-left:-50px;
+    text-align:center;
+    display:inline-block;
+    width:150px;
+    margin-right: 50px;
+  }
+  h5{
+    font-size:14px;
+    font-weight:bold;
+    margin-top:9px;
+    margin-bottom:5px;
+    color: $black;
+   }
+  h6{
+    font-size:13px;
+    font-weight:bold;
+    color: $dbluetitletxt;
+    margin-bottom: 3px;
+  }
+  h7{
+    font-size:11px;
+    margin-bottom:4px;
+  }
+}
+
+/* home */
+.home{
+  h1{
+    font-size:30px;
+    text-align: left;
+    }
+  h2{
+    display:inline-block;
+    font-size:20px;
+    }
+}
 .container{
-  overflow:auto;
   padding-bottom: 30px;
   margin-top:80px;
 }

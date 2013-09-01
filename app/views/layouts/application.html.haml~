@@ -12,4 +12,6 @@
       = render 'layouts/header'
       .centralunit
         = yield
+      .rightcontainer.fill
+        = render 'layouts/partners'
     = render 'layouts/footer'
