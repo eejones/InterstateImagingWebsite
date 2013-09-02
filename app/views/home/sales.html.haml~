@@ -1,19 +1,25 @@
-%h3 Sales Team
+%h3 Sales
 %div.salesall
-  %ul.sales
-    %li
-      %h5 Eastern Kentucky
-      %h6 Andrew Brinkman
-      Sales Associate
-      %br
-      (800) 421-2402
-      %br
-      inimag@aol.com
-    %li
-      %h5 NE Missouri
-      %h6 Craig Forrester
-      Sales Associate
-      %br
-      (800) 421-2402
-      %br
-      iistl@aol.com
+  %p The brands we represent are Canon, Carestream, Fuji, Varian, Del Medical, Quantum, Konica, Viztek, Mavig, Alpinion Ultrasounds, and BRIT Systems.
+  %p We sell brand new, refurbished, and pre-owned equipment such as:
+  .sales
+    %ul
+      %li DR Detector Room and Portable Upgrades
+      %li DR Portables
+      %li Complete DR and CR Rad rooms
+      %li DR and CR R/F rooms
+      %li CR Reader Units
+      %li Ultrasounds
+      %li CT’s
+      %li Bone Density Machines
+  .sales2
+    %ul
+      %li Monitors and their related Mavig suspension components
+      %li C-Arms
+      %li Digital Mammography
+      %li Printers
+      %li PACS Systems
+      %li Supplies
+      %li Film
+      %li CR Cassette Repair
+  %p Contact us at 1-800-421-2402 for sales information or questions regarding any of these products.  

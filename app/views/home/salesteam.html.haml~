@@ -1,0 +1,36 @@
+.saleshead
+  %h3 Sales Team
+%div.salesall
+  %ul.sales
+    %li
+      %h5 Metro Louisville/Eastern Kentucky
+      %h6 Andrew Brinkman
+      %h7 Sales Associate
+      %br
+      (800) 421-2402
+      %br
+      %a{:href=>"mailto:inimag@aol.com"}>inimag@aol.com
+    %li
+      %h5 SW Indiana/Western Kentucky
+      %h6 Fake Associate
+      %h7 Sales Associate
+      %br
+      (800) 421-2402
+      %br
+      %a{:href=>"mailto:inimag@aol.com"}>inimag@aol.com
+    %li
+      %h5 E Missouri/Metro St Louis
+      %h6 Craig Forrester
+      %h7 Sales Associate
+      %br
+      (800) 421-2402
+      %br
+      %a{:href=>"mailto:iistl@aol.com"}>iistl@aol.com
+    %li
+      %h5 Southern/Central Illinois
+      %h6 Fake Associate
+      %h7 Sales Associate
+      %br
+      (800) 421-2402
+      %br
+      %a{:href=>"mailto:iistl@aol.com"}>iistl@aol.com

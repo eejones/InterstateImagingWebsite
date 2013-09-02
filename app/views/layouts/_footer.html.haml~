@@ -1,5 +1,5 @@
-%div.footer
-  %small
-    "Copyright "
+%footer.footer
+  %p
+    Copyright 
     = Time.now.year
-    " Interstate Imaging"
+     Interstate Imaging

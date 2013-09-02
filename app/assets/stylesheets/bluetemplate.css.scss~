@@ -9,6 +9,7 @@ $blue: #0000FF;
 $bluelight: #1B94E0;
 $headblue: #3C5EFF;
 $backgroundblue: #B8D4F2;
+$solidred: #FF0000;
 
 $black: #000;
 $dbluetitletxt: #6769a7;
@@ -37,11 +38,10 @@ html body {
   height:auto;
   padding-top: 0px;
 /*  background-color: $backgroundblue;*/
-  background-image: url("grid-background.gif");
+  background-image: url("grid-background50.png");
   background-repeat: repeat;
   background-position: center top;
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
+  font-family:"Times New Roman", Times, serif;
   line-height: 18px;
   /* not here before  background-size: cover;*/
 /*  background-size: contain;*/
@@ -109,9 +109,8 @@ html body {
   }
 }
 
-
 p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family:"Times New Roman", Times, serif;
   font-size: 13px;
   line-height: 18px;
 }
@@ -227,14 +226,14 @@ header{
   margin-left: auto;
   margin-right:auto;
   height: 80px;
-  background-color:$lightbluebg;
+  background-color:$white;
   align:center;
 }
 
 header div .headerrow1{
   background-color: $bluebg;
   height:20px;
-  font-family:verdana,arial,helvetica,sans-serif;
+  font-family:"Times New Roman", Times, serif;
   ul{
     margin-left: auto;
     margin-right:auto;
@@ -242,7 +241,7 @@ header div .headerrow1{
     text-align:center;
   }
   a{
-    font-family:verdana,arial,helvetica,sans-serif;
+    font-family:"Times New Roman", Times, serif;
     text-size:13px;
     align:center;
     color: $offwhite;
@@ -250,7 +249,8 @@ header div .headerrow1{
     margin-left: 14px;
     margin-right: 14px;
     &:hover{
-      color: $dbluetitletxt;
+      color: $solidred;
+      text-decoration: none;
       }
   }
 }  
@@ -270,7 +270,7 @@ header div .headerrow2{
     font-size:10px;
     line-height: 12px;
     color:$black;
-    margin-top:1px;
+    margin-top:3px;
     margin-bottom:0px;
   }
 }
@@ -304,7 +304,7 @@ headlist ul{
 
 /* partners */
 .rightcontainer{
-  width:200px;
+  width:auto;
   min-height:100%;
   margin-top: 10px;
   float:right;
@@ -408,20 +408,107 @@ aside{
 }
 
 /* Sales */
-.salesall{
-  margin-left:-50px;
+.saleshead{
+  h3{
+    text-align:center;
+    align:center;
+  }
 }
-.sales{
+.salesall{
+    align:center;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:100%;
+  }
+
+.sales1{
+  ul{
+    width:200px;
+    float:left;
+    margin-left:50px;
+  }
+  li{
+    font-size:11px;
+    max-width:100%;
+    height:auto;
+    margin-bottom:3px;
+  }
+  h5{
+    font-size:14px;
+    font-weight:bold;
+    margin-top:9px;
+    margin-bottom:5px;
+    color: $black;
+   }
+  h6{
+    font-size:13px;
+    font-weight:bold;
+    color: $dbluetitletxt;
+    margin-bottom: 3px;
+  }
+  h7{
+    font-size:11px;
+    margin-bottom:4px;
+  }
+}
+.sales2{
+  ul{
+    width:200px;
+    margin-left:300px;
+  }
+  li{
+    font-size:11px;
+    max-width:100%;
+    height:auto;
+    margin-bottom:3px;
+    margin-right:0px;
+  }
+  h5{
+    font-size:14px;
+    font-weight:bold;
+    margin-top:9px;
+    margin-bottom:5px;
+    color: $black;
+   }
+  h6{
+    font-size:13px;
+    font-weight:bold;
+    color: $dbluetitletxt;
+    margin-bottom: 3px;
+  }
+  h7{
+    font-size:11px;
+    margin-bottom:4px;
+  }
+}
+
+/* Sales Team --NOT CURRENTLY IN USE--*/
+
+.salesteamhead{
+  h3{
+    text-align:center;
+    align:center;
+  }
+}
+.salesteamall{
+    align:center;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:100%;
+  }
+.salesteam{
   ul{
     max-width:100%;
     display:inline;
   }
   li{
-    margin-left:-50px;
     text-align:center;
     display:inline-block;
-    width:150px;
-    margin-right: 50px;
+    width:180px;
+    height:auto;
+    margin-bottom:20px;
+    margin-right:25px;
+    margin-left:25px;
   }
   h5{
     font-size:14px;
@@ -510,15 +597,24 @@ p {
 footer {
   position:fixed;
   bottom: 0;
-  height: 20px;
+  height: 15px;
   clear:both; 
   width: 100%;
   padding-right: 15%;
   padding-left: 15%;
   color: $bluedark;
   background-color: $bluebg;
+  align:center;
+  p{
+    color:$white;
+    font-size:10px;
+    text-align:center;
+  }
+
   a {
     color: $blue;
+    font-size:10px;
+    text-align:center;
     &:hover { 
     color: $white;
     background-color: transparent;
