@@ -606,7 +606,7 @@ footer {
   background-color: $bluebg;
   align:center;
   p{
-    color:$white;
+    color:$dbluetitletxt;
     font-size:10px;
     text-align:center;
   }

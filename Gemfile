@@ -14,13 +14,14 @@ gem 'will_paginate', '3.0.3'
 gem 'bootstrap-will_paginate', '0.0.6'
 gem 'haml'
 gem 'haml-rails'
-gem 'sqlite3'
+gem 'pg'
 gem 'paperclip', '~> 2.7'
 gem 'cocaine', '0.4.0'
 gem 'json'
 gem 'geocoder'
 gem 'embed_logic', :git => 'https://github.com/eejones/EmbedLogic.git'
 gem 'has_scope'
+gem 'unicorn'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -39,6 +40,11 @@ group :development do
   gem 'hpricot'
   gem 'ruby_parser'
   gem 'brakeman'
+  gem 'sqlite3'
+end
+
+group :production do
+  gem 'pg'
 end
 
 gem 'jquery-rails'
@@ -50,7 +56,6 @@ gem 'jquery-rails'
 # gem 'jbuilder'
 
 # Use unicorn as the app server
-# gem 'unicorn'
 
 # Deploy with Capistrano
 # gem 'capistrano'
