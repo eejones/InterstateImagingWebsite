@@ -63,6 +63,7 @@ GEM
       execjs
     coffee-script-source (1.6.3)
     commonjs (0.2.6)
+    daemon_controller (1.1.5)
     erubis (2.7.0)
     execjs (2.0.1)
     faker (1.0.1)
@@ -105,6 +106,10 @@ GEM
       activesupport (>= 2.3.2)
       cocaine (>= 0.0.2)
       mime-types
+    passenger (4.0.16)
+      daemon_controller (>= 1.1.0)
+      rack
+      rake (>= 0.8.1)
     pg (0.16.0)
     polyglot (0.3.3)
     rack (1.4.5)
@@ -196,6 +201,7 @@ DEPENDENCIES
   json
   less-rails-bootstrap
   paperclip (~> 2.7)
+  passenger
   pg
   rails (= 3.2.13)
   ruby_parser
