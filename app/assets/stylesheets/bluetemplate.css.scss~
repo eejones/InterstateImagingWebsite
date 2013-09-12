@@ -41,7 +41,7 @@ html body {
   background-image: url("grid-background50.png");
   background-repeat: repeat;
   background-position: center top;
-  font-family:"Times New Roman", Times, serif;
+  font-family: verdana, arial, helvetica, sans-serif;
   line-height: 18px;
   /* not here before  background-size: cover;*/
 /*  background-size: contain;*/
@@ -55,7 +55,7 @@ html body {
     text-align: left;
     font-weight: bold;
     padding: 10px 5px 5px 0px;
-    font-size: 32px;
+    font-size: 48px;
     margin: -7px;
     margin-bottom: 0px;
     color: $blue;
@@ -73,7 +73,7 @@ html body {
     text-align: left;
     font-weight: bold;
     padding: 5px 5px 5px 0px;
-    font-size: 22px;
+    font-size: 33px;
     margin: 0px;
     margin-bottom: 0px;
     color: $blue;
@@ -100,25 +100,25 @@ html body {
   min-height:100%;
   p{
     text-align:left;
-    font-size: 12px;
+    font-size: 18px;
   }
   h3{
-    font-size:22px;
+    font-size:33px;
     color: $dbluetitletxt;
     margin-bottom:10px;
   }
 }
 
 p, ol, ul, td {
-  font-family:"Times New Roman", Times, serif;
-  font-size: 13px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 19.5px;
   line-height: 18px;
 }
 
 pre {
   background-color: #eee;
   padding: 10px;
-  font-size: 11px;
+  font-size: 16.5px;
 }
 
 div {
@@ -154,14 +154,14 @@ div {
     text-align: left;
     font-weight: bold;
     padding: 5px 5px 5px 15px;
-    font-size: 12px;
+    font-size: 18px;
     margin: -7px;
     margin-bottom: 0px;
     background-color: #c00;
     color: #fff;
   }
   ul li {
-    font-size: 12px;
+    font-size: 18px;
     list-style: square;
   }
 }
@@ -198,7 +198,7 @@ input {
     padding: 10px 10px 10px 0px;
     margin-bottom: 5px;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 37.5px;
     line-height: 20px;
   }
   input[type="checkbox"]{
@@ -226,14 +226,15 @@ header{
   margin-left: auto;
   margin-right:auto;
   height: 80px;
-  background-color:$white;
+  background-image: url("whitishlogo.jpg");
+  background-repeat: repeat;
   align:center;
 }
 
 header div .headerrow1{
   background-color: $bluebg;
   height:20px;
-  font-family:"Times New Roman", Times, serif;
+  font-family: verdana, arial, helvetica, sans-serif;
   ul{
     margin-left: auto;
     margin-right:auto;
@@ -241,7 +242,7 @@ header div .headerrow1{
     text-align:center;
   }
   a{
-    font-family:"Times New Roman", Times, serif;
+    font-family: verdana, arial, helvetica, sans-serif;
     text-size:13px;
     align:center;
     color: $offwhite;
@@ -267,7 +268,7 @@ header div .headerrow2{
   span{
     max-height: 100%;
     float:right;
-    font-size:10px;
+    font-size:15px;
     line-height: 12px;
     color:$black;
     margin-top:3px;
@@ -287,7 +288,7 @@ headlist ul{
 #logo {
   float: left;
   margin-right: 10px;
-  font-size: 1.7em;
+  font-size: 2.55em;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: -1px;
@@ -328,7 +329,7 @@ aside{
   border-radius: 6px 6px 6px 6px;
   min-height:100%;
   h3{
-    font-size:22px;
+    font-size:33px;
     font-color: $dbluetitletxt;
     margin-bottom:10px;
   }
@@ -351,7 +352,7 @@ aside{
   }
   h4{
     font-weight:bold;
-    font-size:20px;
+    font-size:30px;
     margin-bottom:2px;
     text-align: center;
     color:$dbluetitletxt;
@@ -366,7 +367,7 @@ aside{
     margin-right: 0px;
     margin-top: 0px;
     float: right;
-    font-size: 14px;
+    font-size: 21px;
     text-transform: uppercase;
     letter-spacing: 0px;
     font-weight: bold;
@@ -395,7 +396,7 @@ aside{
       padding-top: 20px;
       padding-bottom:10px;
       font-weight: bold;
-      font-size: 16px;
+      font-size: 24px;
       display:block;
       float: right;
       text-align: center;
@@ -428,26 +429,26 @@ aside{
     margin-left:50px;
   }
   li{
-    font-size:11px;
+    font-size:16.5px;
     max-width:100%;
     height:auto;
     margin-bottom:3px;
   }
   h5{
-    font-size:14px;
+    font-size:21px;
     font-weight:bold;
     margin-top:9px;
     margin-bottom:5px;
     color: $black;
    }
   h6{
-    font-size:13px;
+    font-size:19.5px;
     font-weight:bold;
     color: $dbluetitletxt;
     margin-bottom: 3px;
   }
   h7{
-    font-size:11px;
+    font-size:16.5px;
     margin-bottom:4px;
   }
 }
@@ -457,27 +458,27 @@ aside{
     margin-left:300px;
   }
   li{
-    font-size:11px;
+    font-size:16.5px;
     max-width:100%;
     height:auto;
     margin-bottom:3px;
     margin-right:0px;
   }
   h5{
-    font-size:14px;
+    font-size:21px;
     font-weight:bold;
     margin-top:9px;
     margin-bottom:5px;
     color: $black;
    }
   h6{
-    font-size:13px;
+    font-size:19.5px;
     font-weight:bold;
     color: $dbluetitletxt;
     margin-bottom: 3px;
   }
   h7{
-    font-size:11px;
+    font-size:16.5px;
     margin-bottom:4px;
   }
 }
@@ -511,20 +512,20 @@ aside{
     margin-left:25px;
   }
   h5{
-    font-size:14px;
+    font-size:21px;
     font-weight:bold;
     margin-top:9px;
     margin-bottom:5px;
     color: $black;
    }
   h6{
-    font-size:13px;
+    font-size:19.5px;
     font-weight:bold;
     color: $dbluetitletxt;
     margin-bottom: 3px;
   }
   h7{
-    font-size:11px;
+    font-size:16.5px;
     margin-bottom:4px;
   }
 }
@@ -532,12 +533,12 @@ aside{
 /* home */
 .home{
   h1{
-    font-size:30px;
+    font-size:45px;
     text-align: left;
     }
   h2{
     display:inline-block;
-    font-size:20px;
+    font-size:30px;
     }
 }
 .container{
@@ -564,14 +565,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 4.5em;
   letter-spacing: -2px;
   margin-bottom: 5px;
   text-align: center;
 }
 
 h2 {
-  font-size: 1.4em;
+  font-size: 2.1em;
   letter-spacing: -1px;
   margin-bottom: 15px;
   text-align: center;
@@ -580,12 +581,12 @@ h2 {
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 1.65em;
   line-height: 1.7em;
 }
 
 .tinysize{
-  font-size: .6em;
+  font-size: .9em;
 }
 
 .btn-stupid {
@@ -607,13 +608,13 @@ footer {
   align:center;
   p{
     color:$dbluetitletxt;
-    font-size:10px;
+    font-size:15px;
     text-align:center;
   }
 
   a {
     color: $blue;
-    font-size:10px;
+    font-size:15px;
     text-align:center;
     &:hover { 
     color: $white;
@@ -636,5 +637,3 @@ footer {
      }
   }
 }
-
-

@@ -41,7 +41,7 @@ html body {
   background-image: url("grid-background50.png");
   background-repeat: repeat;
   background-position: center top;
-  font-family:"Times New Roman", Times, serif;
+  font-family: verdana, arial, helvetica, sans-serif;
   line-height: 18px;
   /* not here before  background-size: cover;*/
 /*  background-size: contain;*/
@@ -55,7 +55,7 @@ html body {
     text-align: left;
     font-weight: bold;
     padding: 10px 5px 5px 0px;
-    font-size: 32px;
+    font-size: 48px;
     margin: -7px;
     margin-bottom: 0px;
     color: $blue;
@@ -73,7 +73,7 @@ html body {
     text-align: left;
     font-weight: bold;
     padding: 5px 5px 5px 0px;
-    font-size: 22px;
+    font-size: 33px;
     margin: 0px;
     margin-bottom: 0px;
     color: $blue;
@@ -82,16 +82,16 @@ html body {
 }
 
 .centralunit{
-  width: 500px;
+  width: 750px;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 60px;
-  padding-left: 60px;
+  padding-right: 90px;
+  padding-left: 90px;
   padding-left-ltr-source: physical;
   padding-left-rtl-source: physical;
   padding-right-ltr-source: physical;
   padding-right-rtl-source: physical;
-  margin-top:90px;
+  margin-top:135px;
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
@@ -100,30 +100,30 @@ html body {
   min-height:100%;
   p{
     text-align:left;
-    font-size: 12px;
+    font-size: 18px;
   }
   h3{
-    font-size:22px;
+    font-size:33px;
     color: $dbluetitletxt;
-    margin-bottom:10px;
+    margin-bottom:15px;
   }
 }
 
 p, ol, ul, td {
-  font-family:"Times New Roman", Times, serif;
-  font-size: 13px;
-  line-height: 18px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 19.5px;
+  line-height: 27px;
 }
 
 pre {
   background-color: #eee;
   padding: 10px;
-  font-size: 11px;
+  font-size: 16.5px;
 }
 
 div {
   &.field, &.actions {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 }
 
@@ -144,24 +144,24 @@ div {
 }
 
 #error_explanation {
-  width: 450px;
+  width: 675px;
   border: 2px solid red;
   padding: 7px;
   padding-bottom: 0;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   background-color: #f0f0f0;
   h2 {
     text-align: left;
     font-weight: bold;
     padding: 5px 5px 5px 15px;
-    font-size: 12px;
+    font-size: 18px;
     margin: -7px;
     margin-bottom: 0px;
     background-color: #c00;
     color: #fff;
   }
   ul li {
-    font-size: 12px;
+    font-size: 18px;
     list-style: square;
   }
 }
@@ -170,16 +170,16 @@ input, select, .uneditable-input {
   border: 1px solid #bbb;
   width: 100%;
   padding: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 75px;
   @include box_sizing;
 }
 
 textarea{
   border: 1px solid #bbb;
   width: 100%;
-  height: 100px;
+  height: 150px;
   padding: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 75px;
   @include box_sizing;
 }
 
@@ -198,8 +198,8 @@ input {
     padding: 10px 10px 10px 0px;
     margin-bottom: 5px;
     font-weight: bold;
-    font-size: 25px;
-    line-height: 20px;
+    font-size: 37.5px;
+    line-height: 30px;
   }
   input[type="checkbox"]{
     background-color: $bluelight;
@@ -222,10 +222,10 @@ input {
 header{
   color: $bluebg;
   position: fixed-top;
-  width:620px;
+  width:930px;
   margin-left: auto;
   margin-right:auto;
-  height: 80px;
+  height: 120px;
   background-image: url("whitishlogo.jpg");
   background-repeat: repeat;
   align:center;
@@ -233,16 +233,16 @@ header{
 
 header div .headerrow1{
   background-color: $bluebg;
-  height:20px;
-  font-family:"Times New Roman", Times, serif;
+  height:30px;
+  font-family: verdana, arial, helvetica, sans-serif;
   ul{
     margin-left: auto;
     margin-right:auto;
-    width:450px;
+    width:675px;
     text-align:center;
   }
   a{
-    font-family:"Times New Roman", Times, serif;
+    font-family: verdana, arial, helvetica, sans-serif;
     text-size:13px;
     align:center;
     color: $offwhite;
@@ -257,10 +257,10 @@ header div .headerrow1{
 }  
 
 header div .headerrow2{
-  height:55px;
+  height:82.5px;
   margin-left: auto;
   margin-right:auto;
-  width:450px;
+  width:675px;
   img{
     max-height:100%;
     float: left;
@@ -268,8 +268,8 @@ header div .headerrow2{
   span{
     max-height: 100%;
     float:right;
-    font-size:10px;
-    line-height: 12px;
+    font-size:15px;
+    line-height: 15px;
     color:$black;
     margin-top:3px;
     margin-bottom:0px;
@@ -277,7 +277,7 @@ header div .headerrow2{
 }
 header div .headerrow3{
   background-color: $bluebg;
-  height:10px;
+  height:15px;
 }
 
 headlist ul{
@@ -288,14 +288,14 @@ headlist ul{
 #logo {
   float: left;
   margin-right: 10px;
-  font-size: 1.7em;
+  font-size: 2.55em;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
   padding-bottom: 9px;
   font-weight: bold;
-  line-height: 1;
+  line-height: 1.5;
   &:hover {
     color: $bluedark;
     background-color: $white;
@@ -312,7 +312,7 @@ headlist ul{
   }
 
 aside{
-  width: 110px;
+  width: 165px;
   padding-top: 10px;
   padding-bottom: 5px;
   padding-right: 4px;
@@ -329,7 +329,7 @@ aside{
   border-radius: 6px 6px 6px 6px;
   min-height:100%;
   h3{
-    font-size:22px;
+    font-size:33px;
     font-color: $dbluetitletxt;
     margin-bottom:10px;
   }
@@ -344,7 +344,7 @@ aside{
     height: auto;
   }
   .fixsize img{
-    height:15px;
+    height:22.5px;
   }
 
   a{
@@ -352,7 +352,7 @@ aside{
   }
   h4{
     font-weight:bold;
-    font-size:20px;
+    font-size:30px;
     margin-bottom:2px;
     text-align: center;
     color:$dbluetitletxt;
@@ -367,7 +367,7 @@ aside{
     margin-right: 0px;
     margin-top: 0px;
     float: right;
-    font-size: 14px;
+    font-size: 21px;
     text-transform: uppercase;
     letter-spacing: 0px;
     font-weight: bold;
@@ -379,8 +379,8 @@ aside{
       margin-left: 5px;
       margin-bottom: 5px;
       margin-right: 2px;
-      width: 35px;
-      height: 35px;
+      width: 52.5px;
+      height: 52.5px;
       &:hover{
         border: 2px;
         border-color: black;
@@ -396,7 +396,7 @@ aside{
       padding-top: 20px;
       padding-bottom:10px;
       font-weight: bold;
-      font-size: 16px;
+      font-size: 24px;
       display:block;
       float: right;
       text-align: center;
@@ -424,61 +424,61 @@ aside{
 
 .sales1{
   ul{
-    width:200px;
+    width:300px;
     float:left;
-    margin-left:50px;
+    margin-left:75px;
   }
   li{
-    font-size:11px;
+    font-size:16.5px;
     max-width:100%;
     height:auto;
     margin-bottom:3px;
   }
   h5{
-    font-size:14px;
+    font-size:21px;
     font-weight:bold;
     margin-top:9px;
     margin-bottom:5px;
     color: $black;
    }
   h6{
-    font-size:13px;
+    font-size:19.5px;
     font-weight:bold;
     color: $dbluetitletxt;
     margin-bottom: 3px;
   }
   h7{
-    font-size:11px;
+    font-size:16.5px;
     margin-bottom:4px;
   }
 }
 .sales2{
   ul{
-    width:200px;
-    margin-left:300px;
+    width:300px;
+    margin-left:450px;
   }
   li{
-    font-size:11px;
+    font-size:16.5px;
     max-width:100%;
     height:auto;
     margin-bottom:3px;
     margin-right:0px;
   }
   h5{
-    font-size:14px;
+    font-size:21px;
     font-weight:bold;
     margin-top:9px;
     margin-bottom:5px;
     color: $black;
    }
   h6{
-    font-size:13px;
+    font-size:19.5px;
     font-weight:bold;
     color: $dbluetitletxt;
     margin-bottom: 3px;
   }
   h7{
-    font-size:11px;
+    font-size:16.5px;
     margin-bottom:4px;
   }
 }
@@ -512,20 +512,20 @@ aside{
     margin-left:25px;
   }
   h5{
-    font-size:14px;
+    font-size:21px;
     font-weight:bold;
     margin-top:9px;
     margin-bottom:5px;
     color: $black;
    }
   h6{
-    font-size:13px;
+    font-size:19.5px;
     font-weight:bold;
     color: $dbluetitletxt;
     margin-bottom: 3px;
   }
   h7{
-    font-size:11px;
+    font-size:16.5px;
     margin-bottom:4px;
   }
 }
@@ -533,17 +533,17 @@ aside{
 /* home */
 .home{
   h1{
-    font-size:30px;
+    font-size:45px;
     text-align: left;
     }
   h2{
     display:inline-block;
-    font-size:20px;
+    font-size:30px;
     }
 }
 .container{
-  padding-bottom: 30px;
-  margin-top:80px;
+  padding-bottom: 45px;
+  margin-top:120px;
 }
 
 /* main content*/
@@ -565,14 +565,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 4.5em;
   letter-spacing: -2px;
   margin-bottom: 5px;
   text-align: center;
 }
 
 h2 {
-  font-size: 1.4em;
+  font-size: 2.1em;
   letter-spacing: -1px;
   margin-bottom: 15px;
   text-align: center;
@@ -581,12 +581,12 @@ h2 {
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 1.65em;
   line-height: 1.7em;
 }
 
 .tinysize{
-  font-size: .6em;
+  font-size: .9em;
 }
 
 .btn-stupid {
@@ -637,5 +637,3 @@ footer {
      }
   }
 }
-
-
