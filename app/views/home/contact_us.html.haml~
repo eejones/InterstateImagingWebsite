@@ -1,10 +1,11 @@
 %div
   %h3 Contact
   %p
-    810 N Fares Ave
+    810 North Fares Ave
     %br
-    Evansville, IN 44771
+    Evansville, IN 47711
     %br
     Telephone: (812) 428-2612
     %br
     Toll Free (800) 421-2402
+    %a{:href=>"mailto:AndrewBrinkmanii@gmail.com"} AndrewBrinkmanii@gmail.com

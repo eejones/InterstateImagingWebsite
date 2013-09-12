@@ -82,16 +82,16 @@ html body {
 }
 
 .centralunit{
-  width: 500px;
+  width: 750px;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 60px;
-  padding-left: 60px;
+  padding-right: 90px;
+  padding-left: 90px;
   padding-left-ltr-source: physical;
   padding-left-rtl-source: physical;
   padding-right-ltr-source: physical;
   padding-right-rtl-source: physical;
-  margin-top:90px;
+  margin-top:135px;
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
@@ -105,14 +105,14 @@ html body {
   h3{
     font-size:33px;
     color: $dbluetitletxt;
-    margin-bottom:10px;
+    margin-bottom:15px;
   }
 }
 
 p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 19.5px;
-  line-height: 18px;
+  line-height: 27px;
 }
 
 pre {
@@ -123,7 +123,7 @@ pre {
 
 div {
   &.field, &.actions {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 }
 
@@ -144,11 +144,11 @@ div {
 }
 
 #error_explanation {
-  width: 450px;
+  width: 675px;
   border: 2px solid red;
   padding: 7px;
   padding-bottom: 0;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   background-color: #f0f0f0;
   h2 {
     text-align: left;
@@ -170,16 +170,16 @@ input, select, .uneditable-input {
   border: 1px solid #bbb;
   width: 100%;
   padding: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 75px;
   @include box_sizing;
 }
 
 textarea{
   border: 1px solid #bbb;
   width: 100%;
-  height: 100px;
+  height: 150px;
   padding: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 75px;
   @include box_sizing;
 }
 
@@ -199,7 +199,7 @@ input {
     margin-bottom: 5px;
     font-weight: bold;
     font-size: 37.5px;
-    line-height: 20px;
+    line-height: 30px;
   }
   input[type="checkbox"]{
     background-color: $bluelight;
@@ -222,10 +222,10 @@ input {
 header{
   color: $bluebg;
   position: fixed-top;
-  width:620px;
+  width:930px;
   margin-left: auto;
   margin-right:auto;
-  height: 80px;
+  height: 120px;
   background-image: url("whitishlogo.jpg");
   background-repeat: repeat;
   align:center;
@@ -233,12 +233,12 @@ header{
 
 header div .headerrow1{
   background-color: $bluebg;
-  height:20px;
+  height:30px;
   font-family: verdana, arial, helvetica, sans-serif;
   ul{
     margin-left: auto;
     margin-right:auto;
-    width:450px;
+    width:675px;
     text-align:center;
   }
   a{
@@ -257,10 +257,10 @@ header div .headerrow1{
 }  
 
 header div .headerrow2{
-  height:55px;
+  height:82.5px;
   margin-left: auto;
   margin-right:auto;
-  width:450px;
+  width:675px;
   img{
     max-height:100%;
     float: left;
@@ -269,7 +269,7 @@ header div .headerrow2{
     max-height: 100%;
     float:right;
     font-size:15px;
-    line-height: 12px;
+    line-height: 15px;
     color:$black;
     margin-top:3px;
     margin-bottom:0px;
@@ -277,7 +277,7 @@ header div .headerrow2{
 }
 header div .headerrow3{
   background-color: $bluebg;
-  height:10px;
+  height:15px;
 }
 
 headlist ul{
@@ -295,7 +295,7 @@ headlist ul{
   padding-top: 9px;
   padding-bottom: 9px;
   font-weight: bold;
-  line-height: 1;
+  line-height: 1.5;
   &:hover {
     color: $bluedark;
     background-color: $white;
@@ -312,8 +312,8 @@ headlist ul{
   }
 
 aside{
-  width: 110px;
-  padding-top: 10px;
+  width: 165px;
+  padding-top: 15px;
   padding-bottom: 5px;
   padding-right: 4px;
   padding-left: 0px;
@@ -329,9 +329,10 @@ aside{
   border-radius: 6px 6px 6px 6px;
   min-height:100%;
   h3{
-    font-size:33px;
+    font-size:20px;
     font-color: $dbluetitletxt;
     margin-bottom:10px;
+    text-align:center;
   }
   img{
     align:center;
@@ -344,7 +345,7 @@ aside{
     height: auto;
   }
   .fixsize img{
-    height:15px;
+    height:22.5px;
   }
 
   a{
@@ -379,8 +380,8 @@ aside{
       margin-left: 5px;
       margin-bottom: 5px;
       margin-right: 2px;
-      width: 35px;
-      height: 35px;
+      width: 52.5px;
+      height: 52.5px;
       &:hover{
         border: 2px;
         border-color: black;
@@ -424,9 +425,9 @@ aside{
 
 .sales1{
   ul{
-    width:200px;
+    width:300px;
     float:left;
-    margin-left:50px;
+    margin-left:75px;
   }
   li{
     font-size:16.5px;
@@ -454,8 +455,8 @@ aside{
 }
 .sales2{
   ul{
-    width:200px;
-    margin-left:300px;
+    width:300px;
+    margin-left:450px;
   }
   li{
     font-size:16.5px;
@@ -542,8 +543,8 @@ aside{
     }
 }
 .container{
-  padding-bottom: 30px;
-  margin-top:80px;
+  padding-bottom: 45px;
+  margin-top:120px;
 }
 
 /* main content*/
@@ -608,13 +609,13 @@ footer {
   align:center;
   p{
     color:$dbluetitletxt;
-    font-size:15px;
+    font-size:10px;
     text-align:center;
   }
 
   a {
     color: $blue;
-    font-size:15px;
+    font-size:10px;
     text-align:center;
     &:hover { 
     color: $white;
