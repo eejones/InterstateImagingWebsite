@@ -2,10 +2,11 @@
   .header
     %div.headerrow1
       %ul
-        = link_to "Sales", sales_path
-        = link_to "Service", service_path
-        = link_to "Equipment Brokerage", equipment_path
-        = link_to "Contact Us", contact_us_path
+        %li= link_to "Home", root_path
+        %li= link_to "Sales", sales_path
+        %li= link_to "Service", service_path
+        %li= link_to "Equipment Brokerage", equipment_path
+        %li= link_to "Contact Us", contact_us_path
     %div.headerrow2
       = link_to image_tag("whitelogo.jpg", :alt=> "Interstate Imaging"), root_path
       %span
