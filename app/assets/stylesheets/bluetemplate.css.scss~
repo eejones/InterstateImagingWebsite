@@ -41,7 +41,7 @@ html body {
   background-image: url("grid-background50.png");
   background-repeat: repeat;
   background-position: center top;
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: arial, helvetica, sans-serif;
   line-height: 18px;
   /* not here before  background-size: cover;*/
 /*  background-size: contain;*/
@@ -110,7 +110,7 @@ html body {
 }
 
 p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: arial, helvetica, sans-serif;
   font-size: 19.5px;
   line-height: 27px;
 }
@@ -222,19 +222,19 @@ input {
 header{
   color: $bluebg;
   position: fixed-top;
-  width:930px;
+  width: 930px;
   margin-left: auto;
   margin-right:auto;
   height: 120px;
   background-image: url("whitishlogo.jpg");
   background-repeat: repeat;
-  align:center;
+  align: center;
 }
 
 header div .headerrow1{
   background-color: $bluebg;
   height:30px;
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: arial, helvetica, sans-serif;
   ul{
     margin-left: auto;
     margin-right:auto;
@@ -242,7 +242,7 @@ header div .headerrow1{
     text-align:center;
   }
   a{
-    font-family: verdana, arial, helvetica, sans-serif;
+    font-family: arial, helvetica, sans-serif;
     text-size:13px;
     align:center;
     color: $offwhite;
